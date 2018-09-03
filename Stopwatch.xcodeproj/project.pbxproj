@@ -14,6 +14,9 @@
 		F264440C213DBB90008EED64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F264440A213DBB90008EED64 /* LaunchScreen.storyboard */; };
 		F2644417213DBB90008EED64 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2644416213DBB90008EED64 /* StopwatchTests.swift */; };
 		F2644422213DBB91008EED64 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2644421213DBB91008EED64 /* StopwatchUITests.swift */; };
+		F2644430213DC39A008EED64 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264442F213DC39A008EED64 /* Stopwatch.swift */; };
+		F2644432213DCF7D008EED64 /* sasha-stories-729673-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2644431213DCF7D008EED64 /* sasha-stories-729673-unsplash.jpg */; };
+		F2644434213DD0DE008EED64 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = F2644433213DD0DD008EED64 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F264441D213DBB91008EED64 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2644421213DBB91008EED64 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		F2644423213DBB91008EED64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F264442F213DC39A008EED64 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		F2644431213DCF7D008EED64 /* sasha-stories-729673-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sasha-stories-729673-unsplash.jpg"; path = "../../../../Downloads/sasha-stories-729673-unsplash.jpg"; sourceTree = "<group>"; };
+		F2644433213DD0DD008EED64 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,13 @@
 		F2644400213DBB90008EED64 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				F2644433213DD0DD008EED64 /* AppIcon.appiconset */,
 				F2644401213DBB90008EED64 /* AppDelegate.swift */,
 				F2644403213DBB90008EED64 /* ViewController.swift */,
 				F2644405213DBB90008EED64 /* Main.storyboard */,
+				F264442F213DC39A008EED64 /* Stopwatch.swift */,
 				F2644408213DBB90008EED64 /* Assets.xcassets */,
+				F2644431213DCF7D008EED64 /* sasha-stories-729673-unsplash.jpg */,
 				F264440A213DBB90008EED64 /* LaunchScreen.storyboard */,
 				F264440D213DBB90008EED64 /* Info.plist */,
 			);
@@ -232,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2644432213DCF7D008EED64 /* sasha-stories-729673-unsplash.jpg in Resources */,
 				F264440C213DBB90008EED64 /* LaunchScreen.storyboard in Resources */,
 				F2644409213DBB90008EED64 /* Assets.xcassets in Resources */,
+				F2644434213DD0DE008EED64 /* AppIcon.appiconset in Resources */,
 				F2644407213DBB90008EED64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2644404213DBB90008EED64 /* ViewController.swift in Sources */,
+				F2644430213DC39A008EED64 /* Stopwatch.swift in Sources */,
 				F2644402213DBB90008EED64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
